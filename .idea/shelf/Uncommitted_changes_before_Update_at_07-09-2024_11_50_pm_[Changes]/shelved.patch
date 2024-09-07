@@ -1,0 +1,288 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print(\"Hi Pankaj, This is your First program\") #To print\r\n\r\nname = input(\"Enter Which programming language do you want?\")\r\nprint(name)\r\n\r\nprint(f\"That's good to hear about interest in this {name} programming language\")\r\n\r\n# A simple Python program to understand variables and print statements\r\ngreeting = \"Hello, World!\"\r\nyear = 2024\r\npi = 3.14159\r\n\r\nprint(greeting)\r\nprint(f\"The year is {year} and the value of pi is {pi}\")\r\n\r\n\r\n# Demonstrating basic data types\r\nx = 10            # int\r\ny = 3.14          # float\r\nname = \"Alice\"    # str\r\nis_valid = True   # bool\r\n\r\nprint(type(x), type(y), type(name), type(is_valid))\r\n\r\n# Arithmetic Operators\r\na = 10\r\nb = 5\r\nprint(a + b, a - b, a * b, a / b)\r\n\r\n# Bitwise Operators\r\nprint(a & b, a | b, a ^ b)\r\n\r\n# Comparison Operators\r\nprint(a > b, a == b, a <= b)\r\n\r\n# Assignment Operators\r\na += 5  # a = a + 5\r\nprint(a)\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision e59fa6ab605a8d75267bee4341586ec8f9fd17d9)
++++ b/main.py	(date 1725732806246)
+@@ -4,36 +4,3 @@
+ print(name)
+ 
+ print(f"That's good to hear about interest in this {name} programming language")
+-
+-# A simple Python program to understand variables and print statements
+-greeting = "Hello, World!"
+-year = 2024
+-pi = 3.14159
+-
+-print(greeting)
+-print(f"The year is {year} and the value of pi is {pi}")
+-
+-
+-# Demonstrating basic data types
+-x = 10            # int
+-y = 3.14          # float
+-name = "Alice"    # str
+-is_valid = True   # bool
+-
+-print(type(x), type(y), type(name), type(is_valid))
+-
+-# Arithmetic Operators
+-a = 10
+-b = 5
+-print(a + b, a - b, a * b, a / b)
+-
+-# Bitwise Operators
+-print(a & b, a | b, a ^ b)
+-
+-# Comparison Operators
+-print(a > b, a == b, a <= b)
+-
+-# Assignment Operators
+-a += 5  # a = a + 5
+-print(a)
+-
+Index: 1. Introduction to Python & Variables.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/1. Introduction to Python & Variables.py b/1. Introduction to Python & Variables.py
+new file mode 100644
+--- /dev/null	(date 1725732863953)
++++ b/1. Introduction to Python & Variables.py	(date 1725732863953)
+@@ -0,0 +1,7 @@
++# A simple Python program to understand variables and print statements
++greeting = "Hello, Pankaj!"
++year = 2024
++pi = 3.14159
++
++print(greeting)
++print(f"The year is {year} and the value of pi is {pi}")
+Index: 2. Data Types, Python Objects, Numbers, Booleans.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2. Data Types, Python Objects, Numbers, Booleans.py b/2. Data Types, Python Objects, Numbers, Booleans.py
+new file mode 100644
+--- /dev/null	(date 1725733041477)
++++ b/2. Data Types, Python Objects, Numbers, Booleans.py	(date 1725733041477)
+@@ -0,0 +1,9 @@
++# Demonstrating basic data types
++x = 10            # int
++y = 3.14          # float
++name = "Alice"    # str
++is_valid = True   # bool
++
++print(x, y, name, is_valid)
++
++print(type(x), type(y), type(name), type(is_valid))
+Index: 3. Operators....Arithmetic, Bitwise, Comparison, Assignment.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/3. Operators....Arithmetic, Bitwise, Comparison, Assignment.py b/3. Operators....Arithmetic, Bitwise, Comparison, Assignment.py
+new file mode 100644
+--- /dev/null	(date 1725733115332)
++++ b/3. Operators....Arithmetic, Bitwise, Comparison, Assignment.py	(date 1725733115332)
+@@ -0,0 +1,14 @@
++# Arithmetic Operators
++a = 10
++b = 5
++print(a + b, a - b, a * b, a / b)
++
++# Bitwise Operators
++print(a & b, a | b, a ^ b)
++
++# Comparison Operators
++print(a > b, a == b, a <= b)
++
++# Assignment Operators
++a += 5  # a = a + 5
++print(a)
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ebb9d796-a060-47ba-9e86-594403aa2d43\" name=\"Changes\" comment=\"Python using pycharm\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2ljEA5gTtRwINqxxVAc63fTuz24\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Python.main.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153\" />\r\n        <option value=\"bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ebb9d796-a060-47ba-9e86-594403aa2d43\" name=\"Changes\" comment=\"\" />\r\n      <created>1725684941327</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1725684941327</updated>\r\n      <workItem from=\"1725684942845\" duration=\"1085000\" />\r\n      <workItem from=\"1725724996470\" duration=\"1686000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Python using pycharm\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725732322818</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725732322818</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Python using pycharm\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Python using pycharm\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/pythonProject$main.coverage\" NAME=\"main Coverage Results\" MODIFIED=\"1725732239115\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e59fa6ab605a8d75267bee4341586ec8f9fd17d9)
++++ b/.idea/workspace.xml	(date 1725733149793)
+@@ -4,15 +4,41 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ebb9d796-a060-47ba-9e86-594403aa2d43" name="Changes" comment="Python using pycharm" />
++    <list default="true" id="ebb9d796-a060-47ba-9e86-594403aa2d43" name="Changes" comment="Python using pycharm">
++      <change afterPath="$PROJECT_DIR$/1. Introduction to Python &amp; Variables.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/2. Data Types, Python Objects, Numbers, Booleans.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/3. Operators....Arithmetic, Bitwise, Comparison, Assignment.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/4. Conditions - if-else, if-elif-else.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "PankajBengaluru"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/PankajBengaluru/Python-Basics.git",
++    "accountId": "1ca85e11-73d7-41b7-893e-3df53ebef0e5"
++  }
++}]]></component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 1
+ }</component>
+@@ -22,20 +48,46 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Python.1. Introduction to Python & Variables.executor": "Run",
++    "Python.2. Data Types, Python Objects, Numbers, Booleans.executor": "Run",
++    "Python.3. Operators....Arithmetic, Bitwise, Comparison, Assignment.executor": "Run",
++    "Python.main.executor": "Run",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "master",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager">
++    <configuration name="1. Introduction to Python &amp; Variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="pythonProject" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1. Introduction to Python &amp; Variables.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
+     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+       <module name="pythonProject" />
+       <option name="ENV_FILES" value="" />
+@@ -59,6 +111,11 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python.1. Introduction to Python &amp; Variables" />
++      </list>
++    </recent_temporary>
+   </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+@@ -77,7 +134,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1725684941327</updated>
+       <workItem from="1725684942845" duration="1085000" />
+-      <workItem from="1725724996470" duration="1686000" />
++      <workItem from="1725724996470" duration="2292000" />
+     </task>
+     <task id="LOCAL-00001" summary="Python using pycharm">
+       <option name="closed" value="true" />
+@@ -87,7 +144,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1725732322818</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Python using pycharm">
++      <option name="closed" value="true" />
++      <created>1725732573027</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1725732573027</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -121,6 +186,9 @@
+     <option name="LAST_COMMIT_MESSAGE" value="Python using pycharm" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1725732239115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1725732843058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/pythonProject$1__Introduction_to_Python___Variables.coverage" NAME="1. Introduction to Python &amp; Variables Coverage Results" MODIFIED="1725732906007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/pythonProject$2__Data_Types__Python_Objects__Numbers__Booleans.coverage" NAME="2. Data Types, Python Objects, Numbers, Booleans Coverage Results" MODIFIED="1725733014471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/pythonProject$3__Operators____Arithmetic__Bitwise__Comparison__Assignment.coverage" NAME="3. Operators....Arithmetic, Bitwise, Comparison, Assignment Coverage Results" MODIFIED="1725733117740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: 4. Conditions - if-else, if-elif-else.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/4. Conditions - if-else, if-elif-else.py b/4. Conditions - if-else, if-elif-else.py
+new file mode 100644
+--- /dev/null	(date 1725733149732)
++++ b/4. Conditions - if-else, if-elif-else.py	(date 1725733149732)
+@@ -0,0 +1,9 @@
++# If-Else conditions
++num = 10
++
++if num > 0:
++    print("Positive number")
++elif num == 0:
++    print("Zero")
++else:
++    print("Negative number")
